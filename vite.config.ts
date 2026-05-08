@@ -11,6 +11,9 @@ export default defineConfig({
     babel({ presets: [reactCompilerPreset()] }),
     tailwindcss()
   ],
+  server: {
+    port: 8080, // Replace with your desired port number
+  },
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src'),
