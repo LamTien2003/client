@@ -48,9 +48,9 @@ export default function BillPrintTemplate({ bill }: BillPrintTemplateProps) {
             <div className="print-container w-[80mm] h-auto flex flex-col gap-4 bg-white p-4 shadow-md text-black font-mono text-sm leading-tight">
                 {/* Header */}
                 <div className="text-center border-b border-dashed border-black pb-3 flex flex-col gap-1">
-                    <p className="text-md font-bold uppercase">Hộ kinh doanh Phúc An</p>
-                    <p className="text-xs">2761 Phạm Thế Hiển, Phường 6, Quận 8</p>
-                    <p className="text-xs">Hotline: 0786.437.882</p>
+                    <p className="text-md font-bold uppercase">Hộ kinh doanh Dimsum Nhà Mẹo</p>
+                    <p className="text-xs">882C Tạ Quang Bửu, Phường Bình Đông, Quận 8</p>
+                    <p className="text-xs">Hotline: 0792.888.0825</p>
                 </div>
 
                 {/* Receipt Title */}
