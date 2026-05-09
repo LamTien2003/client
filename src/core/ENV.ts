@@ -1,1 +1,1 @@
-export const API_DEVELOPMENT: string = "http://localhost:3090";
+export const API_DEVELOPMENT: string = "http://103.232.121.159:3090";
