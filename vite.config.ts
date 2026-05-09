@@ -12,6 +12,7 @@ export default defineConfig({
     tailwindcss()
   ],
   server: {
+    host: '0.0.0.0',
     port: 8080, // Replace with your desired port number
   },
   resolve: {
